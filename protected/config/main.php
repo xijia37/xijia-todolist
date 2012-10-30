@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'51PM',
+	'name'=>'Xijia todo list',
 
 	'timezone'=>'America/Chicago',
 
@@ -59,23 +59,23 @@ return array(
 				'rss'=>'site/rss',
 				'project/update/<id:\d+>'=>'project/update',
 				'project/<id:\d+>'=>'project/show',
-		
+
 				'page/<id:\d+>'=>'page/show',
 				'page/update/<id:\d+>'=>'page/update',
 
-				'messages'=>'message/list',		
+				'messages'=>'message/list',
 				'message/<id:\d+>'=>'message/show',
 				'message/update/<id:\d+>'=>'message/update',
 
-				'milestones'=>'milestone/list',		
+				'milestones'=>'milestone/list',
 				'milestone/<id:\d+>'=>'milestone/show',
 				'milestone/update/<id:\d+>'=>'milestone/update',
-		
-				'ticket/list/<project:\d+>'=>'ticket/list',		
+
+				'ticket/list/<project:\d+>'=>'ticket/list',
 				'ticket/<id:\d+>'=>'ticket/show',
 				'ticket/update/<id:\d+>'=>'ticket/update',
 				'ticket/edit/<id:\d+>'=>'ticket/edit',
-		
+
 				'user/<id:\d+>'=>'user/show',
 			),
 		),
@@ -89,7 +89,7 @@ return array(
 		'session'=>array(
 			'autoStart'=>true,
 		),
-		
+
 	),
 
 	// application-level parameters that can be accessed
@@ -97,22 +97,22 @@ return array(
 	'params'=>array(
 		// file storage location
 		'contentRoot'=>'protected' . DIRECTORY_SEPARATOR . 'content',
-	
+
 		// avatar root: must be an public-accessible directory
 		'avatarRoot'=>'avatar',
-		
+
 		// parameters for email
-		'adminEmail'=>'admin@yourcompany.com', 
-		'adminName'=>'Administrator', 
+		'adminEmail'=>'admin@yourcompany.com',
+		'adminName'=>'Administrator',
 		'from'=>'lead.phoenix@dllead.com',
 		'fromname'=>'phoenix.lead.com',
 
-		'mailEngine'=>'smtp', 
+		'mailEngine'=>'smtp',
 		'username'=>'lead.phoenix@dllead.com',
 		'password'=>'pass5188',
 		'smtp_host'=>'smtp.gmail.com',
 		'smtp_port'=>465,
-	
+
 		// default active menu show
 		'activemenu'=>'site',
 	),
