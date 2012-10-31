@@ -298,7 +298,7 @@ create table if not exists Invite (
 insert into  Company values (
 	1, 
 	0, 
-	'森策有限公司',
+	'Senplan',
 	'Greatest Company on the Plannet', 
 	'http://www.senplan.com',
 	'http://www.senplan.com', 	
